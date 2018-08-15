@@ -261,6 +261,7 @@
     <Compile Include="Controllers\Question\FileController.cs" />
     <Compile Include="Controllers\Question\QuestionsController.cs" />
     <Compile Include="Controllers\Register\RegisterController.cs" />
+    <Compile Include="Controllers\Settings\SettingController.cs" />
     <Compile Include="Controllers\Student\StudentController.cs" />
     <Compile Include="Controllers\Subject\SubjectController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -277,6 +278,7 @@
     <Compile Include="Models\Question\QuestionModels.cs" />
     <Compile Include="Models\Register\RegisterModels.cs" />
     <Compile Include="Models\Register\SubjectModels.cs" />
+    <Compile Include="Models\Settings\SettingsModels.cs" />
     <Compile Include="Models\Student\StudentModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />

@@ -64,8 +64,8 @@ namespace BrainIQAPI.Controllers.Register
                             contactModelsTypes.Country = Convert.ToString(dr["Country"]).ToString().Trim();
                         if (!string.IsNullOrEmpty(Convert.ToString(dr["State"])))
                             contactModelsTypes.State = Convert.ToString(dr["State"]).ToString().Trim();
-                        if (!string.IsNullOrEmpty(Convert.ToString(dr["prime_user"])))
-                            contactModelsTypes.PrimaryUser = Convert.ToBoolean(dr["prime_user"]);
+                        if (!string.IsNullOrEmpty(Convert.ToString(dr["expire_on"])))
+                            contactModelsTypes.expire_on = Convert.ToDateTime(dr["expire_on"]);
                         if (!string.IsNullOrEmpty(Convert.ToString(dr["profile_picture"])))
                             contactModelsTypes.Location = Convert.ToString(dr["profile_picture"]).ToString().Trim();
                         if (!string.IsNullOrEmpty(Convert.ToString(dr["gender"])))
