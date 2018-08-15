@@ -116,6 +116,8 @@ namespace BrainIQAPI.Models.Register
 
         public string Location { get; set; }
 
+        public DateTime expire_on { get; set; }
+
         #endregion
 
         #region "Public Methods"
